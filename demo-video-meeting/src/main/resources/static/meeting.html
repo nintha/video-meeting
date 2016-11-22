@@ -1,0 +1,22 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="styleSheet" href="./css/meeting.css" type="text/css" media="screen">
+
+<script src="webjars/jquery/dist/jquery.min.js"></script>
+<script src="webjars/adapter.js/adapter.js"></script>
+<script src="./js/conferenceroom.js"></script>
+<script src="./js/participant.js"></script>
+<script src="./js/kurento-utils.js"></script>
+<script src="./js/meeting.js"></script>
+</head>
+<body>
+	<div id="container">
+		<div id="room" style="display: none;">
+			<h2 id="room-header"></h2>
+			<div id="participants"></div>
+			<input type="button" id="button-leave" onmouseup="leaveRoom();" value="Leave room">
+		</div>
+	</div>
+</body>
+</html>
